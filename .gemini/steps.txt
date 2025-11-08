@@ -1,0 +1,53 @@
+Step 1: Open VS Code
+Launch Visual Studio Code
+
+Step 2: Create/Gemini Folder Structure
+text
+.gemini/
+└── settings.json
+Step 3: Configure .gemini/settings.json
+Create the file with this code:
+
+json
+{
+  "mcpServers": {
+    "browsermcp": {
+      "command": "npx",
+      "args": ["@browsermcp/mcp@latest"]
+    },
+    "airbnb": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@openbnb/mcp-server-airbnb"
+      ]
+    },
+    "flipkart": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@flipkart/mcp-server"
+      ]
+    }
+  }
+}
+Step 4: Install Browser MCP Extension
+Go to VS Code Extensions (Ctrl+Shift+X)
+
+Search for "browsermcp.io"
+
+Install the extension
+
+Step 5: Run Commands
+Open terminal in VS Code (Ctrl+` )
+
+Type gemini to start
+
+Now you can run commands according to your needs
+
+Available MCP Servers:
+Browser MCP - Web browsing automation
+
+Airbnb MCP - Airbnb related operations
+
+Flipkart MCP - Flipkart e-commerce operations
