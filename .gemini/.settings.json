@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "browsermcp": {
+      "command": "npx",
+      "args": ["@browsermcp/mcp@latest"]
+    },
+    "airbnb": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@openbnb/mcp-server-airbnb"
+      ]
+    }, 
+       "flipkart": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@flipkart/mcp-server"
+      ]
+    }
+  }
+}
